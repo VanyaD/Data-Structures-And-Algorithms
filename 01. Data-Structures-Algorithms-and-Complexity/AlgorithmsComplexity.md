@@ -22,11 +22,11 @@
   ```
   
   #### _Expected running time_
-  The expected running time of the C# code above is O(n^2)
+  The expected running time of the C# code above is `O(n^2)`.
   #### _Explanation_
-  The outer loop will be traversed n times and for each of its iterations, the inner loop will be traversed
-  another n times. The other operations (such as incrementing and decrementing variables have constant level 
-  of complexity, thus, can be omitted)
+  The outer loop will be traversed `n` times and for each of its iterations, the inner loop will be traversed
+  another `n` times. The other operations (such as incrementing and decrementing variables) have constant level 
+  of complexity, thus, can be omitted.
   
 2. **What is the expected running time of the following C# code?**
   - Explain why using Markdown.
@@ -46,9 +46,9 @@
   ```
   
   #### _Expected running time_
-  The expected running time of the C# code above is O(n*m).
+  The expected running time of the C# code above is `O(n*m)`.
   #### _Explanation_
-  The outer loop will be traversed n times and for some of its iterations the inner loop will be traversed m times. 
+  The outer loop will be traversed `n` times and for some of its iterations the inner loop will be traversed `m` times. 
   Since the exact number of times of the inner loop will be invoked is constant, it can be ignored when calculating 
   the final running time.
 
@@ -71,7 +71,7 @@
   ```
 
   #### _Expected running time_
-  The expected running time of the C# code above is O(n*m).
+  The expected running time of the C# code above is `O(n*m)`.
   #### _Explanation_
-  The for-loop will be executed n times while the method itself -> m times. 
-  The resulting running time is O(n*m).
+  The for-loop will be executed `n` times while the method itself -> `m` times. 
+  The resulting running time is `O(n*m)`.
